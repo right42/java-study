@@ -11,6 +11,8 @@ public class EqualsAndHashcodeTest {
 
 		System.out.println(user1.equals(user2));
 
+		System.out.println(user1);
+		System.out.println(user2);
 		// Map<User, String> userMaps = Map.of(user1, "test", user2, "test2");
 		// System.out.println(userMaps);
 	}
