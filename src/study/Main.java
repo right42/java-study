@@ -8,5 +8,8 @@ public class Main {
         // over cache
         System.out.println(a == b);
         System.out.println(a.equals(b));
+
+        new StringBuffer("12").append("1");
+        new StringBuilder("12").append("1").append("2");
     }
 }
